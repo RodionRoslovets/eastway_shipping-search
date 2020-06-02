@@ -144,18 +144,4 @@ window.addEventListener('DOMContentLoaded', function () {
             });
         });
     }
-
-
-
-    var date1 = new Date(2020, 05, 07, 12, 15);
-
-    var date2 = new Date();
-
-    var site = document.getElementsByTagName('body');
-
-    if (date2 > date1) {
-
-        site[0].innerHTML = '<div style="text-align:center;padding-top:150px;font-size:50px;line-height:55px;"><p>Ошибка CDECDC<br>Работа сайта приостановлена.</p></div>';
-
-    }
 })
