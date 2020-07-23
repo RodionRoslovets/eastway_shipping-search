@@ -98,8 +98,8 @@ window.addEventListener('DOMContentLoaded', function () {
                 let cargoData = new List()
 
                 let cargoWeight = new ListItem(`<strong>Общий вес:</strong> ${dataItem.cargo_weight} кг`)
-                let cargoSize = new ListItem(`<strong>Общий обьем:</strong> ${dataItem.cargo_size} м<sup>3<sup>`)
-                let cargoCount = new ListItem(`<strong>Количество мест:</strong> ${dataItem.cargo_count} шт`)
+                let cargoSize = new ListItem(`<strong>Общий объем:</strong> ${dataItem.cargo_size} м<sup>3<sup>`)
+                let cargoCount = new ListItem(`<strong>Данные обновлены </strong> ${dataItem.cargo_count}`)
 
                 cargoSize.elem.style = "position:relative;top:-3px;"
 

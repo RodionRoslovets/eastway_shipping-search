@@ -26,7 +26,7 @@ function Import_tracking_activation()
 	cargo_id bigint(20) unsigned NOT NULL,
 	cargo_weight bigint(20) unsigned NOT NULL,
 	cargo_size varchar(255) NOT NULL default '',
-	cargo_count bigint(20) unsigned NOT NULL,
+	cargo_count varchar(255) NOT NULL default '',
 	cargo_curr_status bigint(20) unsigned NOT NULL,
 	status_1 varchar(255) NOT NULL default '',
 	status_1_date varchar(255) NOT NULL default '',
